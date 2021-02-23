@@ -314,6 +314,7 @@ img {
   /* outline: 1px solid yellow; */
   width: calc((100% - 60px) / 3);
   margin-right: var(--list-gap);
+  position: relative;
 }
 
 .services-list :nth-child(3) {
@@ -321,11 +322,30 @@ img {
 }
 .services-card .link {
   display: block;
+  text-decoration: none;
 }
 .services {
   padding-bottom: 94px;
 }
 
+.services-describe {
+  color: var(--white);
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  margin: 0;
+}
+.services-overlay {
+  position: absolute;
+  bottom: 0;
+  height: 70px;
+  width: 370px;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  text-align: center;
+  background-color: rgba(47, 48, 58, 0.8);
+}
 /* ...........................ЧЕМ..МЫ..ЗАНИМАЕМСЯ................... */
 
 /* .................................НАША...КОМАНДА.......... */
@@ -640,12 +660,36 @@ img {
   margin-left: var(--features-list-gap);
 } */
 
+.overlay-image {
+  position: relative;
+}
+
 .overlay-text {
-  margin: 0;
   font-size: 18px;
   font-weight: 400;
   line-height: 1.55;
   text-align: left;
+  color: var(--white);
+  margin: 0;
+}
+
+.overlay {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  /* top: 63px;
+  right: 24px; */
+  height: 294px;
+  width: 370px;
+  padding: 63px 24px;
+  /* outline: 1px solid green; */
+  background-color: rgba(33, 150, 243, 0.9);
+  opacity: 0;
+  transition: 250ms;
+}
+.serv-card:hover .overlay {
+  opacity: 1;
 }
 /* ............................УСЛУГИ.КОМПАНИИ....................... */
 
@@ -692,6 +736,10 @@ img {
   cursor: pointer;
 }
 .modal-icon {
+  /* position: absolute; */
   width: 11px;
   height: 11px;
+  /* left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); */
 }
