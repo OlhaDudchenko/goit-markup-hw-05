@@ -170,9 +170,7 @@ img {
 .list-cont .mail:hover,
 .list-cont .mail:focus,
 .list-cont .tel:hover,
-.list-cont .tel:focus,
-.header-icon:hover,
-.header-icon:focus {
+.list-cont .tel:focus {
   color: var(--blue);
 }
 .header-icon {
