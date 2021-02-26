@@ -441,8 +441,6 @@ img {
   color: var(--white);
 }
 .team-icon {
-  width: 20px;
-  height: 20px;
   fill: currentColor;
 }
 
@@ -564,8 +562,6 @@ img {
   /* color: var(--white); */
 }
 .footer-icon {
-  width: 20px;
-  height: 20px;
   fill: currentColor;
 }
 
@@ -751,9 +747,6 @@ img {
   position: absolute;
   top: 8px;
   right: 8px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 30px;
   height: 30px;
   outline: none;
@@ -764,10 +757,4 @@ img {
   cursor: pointer;
 }
 .modal-icon {
-  /* position: absolute; */
-  /* width: 11px;
-  height: 11px; */
-  /* left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%); */
 }
