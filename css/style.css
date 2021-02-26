@@ -751,6 +751,10 @@ img {
   height: 30px;
   outline: none;
   padding: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   background-color: var(--white);
