@@ -492,11 +492,13 @@ img {
 }
 .footer {
   background-color: #2f303a;
+  padding-bottom: 60px;
+  padding-top: 60px;
 }
 
 .footer .logo {
   display: inline-block;
-  padding-top: 60px;
+
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -508,7 +510,6 @@ img {
   font-size: 14px;
   line-height: 1.7;
   margin-top: 20px;
-  padding-bottom: 60px;
 }
 .adress-list .city {
   color: var(--white);
