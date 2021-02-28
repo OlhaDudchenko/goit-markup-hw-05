@@ -713,6 +713,12 @@ img {
 .serv-card .item:hover .overlay-text {
   box-shadow: none;
 }
+.serv-card .item:hover .service {
+  box-shadow: none;
+}
+.serv-card .item:hover .descrip {
+  box-shadow: none;
+}
 
 /* ............................УСЛУГИ.КОМПАНИИ....................... */
 
